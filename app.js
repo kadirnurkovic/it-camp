@@ -1,23 +1,15 @@
+const string = "ovo je string";
+let newString = "";
+let len = string.length;
 
-    // FIZZ CHALLENGER 
-    // 0 - 100 I ISPISUJEMO BROJEVE
-    // 3 - FIZZ
-    // 5 - BUZZ 
-    // 3 I 5 - FIZZBUZZ
-
-
-   for (let i = 1; i <= 100; i++){
-    if (i % 5 === 0 && i % 3 === 0){
-        console.log(i , "FIZZ BUZZ");
-    }else if(i % 3 === 0){
-        console.log(i, "FIZZ");
-    }else if(i % 5 === 0){
-        console.log(i, "BUZZ");
-    }else{
-        console.log(i);
+for (let i = 0; i < len; i++) {
+    if (i === len - 1) {
+        newString += string[i].toUpperCase();
+    } else if (string[i + 1] === " ") {
+        newString += string[i].toUpperCase();
+    } else {
+        newString += string[i];
     }
 }
 
-
-
-
+console.log(newString);
