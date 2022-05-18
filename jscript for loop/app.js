@@ -21,3 +21,7 @@ for (let i = 0; i < string.length; i++){
 }
 }
 console.log(newString)
+
+const noviString = 'ljep'
+
+console.log(noviString.length)
