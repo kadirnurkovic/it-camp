@@ -1,16 +1,17 @@
-function izracunaj(){
-    let prviBroj = prompt("Unesite prvi broj")
-    if(isNaN(prviBroj)){
-        return false;
+
+    
+    const n = prompt("Unesite broj");
+    let suma = 1;
+    
+    function vratiBroj(x) 
+    {
+        suma *= x;
+        return suma;
     }
-    let drugiBroj = prompt("Unesite drugi broj")
-    if(isNaN(drugiBroj)){
-        return false;
+    for (let i = 0; i < n; i++) {
+        let broj = prompt("Unesite broj za mnozenje");
+        if(isNaN(broj)) { break; }
+        vratiBroj(broj)
+    
     }
-    let treciBroj = prompt("Unesite treci broj")
-    if(isNaN(treciBroj)){
-        return false;
-    }
-    return +prviBroj * +drugiBroj * +treciBroj
-}
-console.log(izracunaj())
+    console.log("Suma je " + suma);
