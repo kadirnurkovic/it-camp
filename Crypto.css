@@ -1,0 +1,21 @@
+.Crypto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px black solid;
+    background-image: linear-gradient(to right,#000, #fff);
+    color: #FFFFFF
+}
+.paragraf-1{
+    height: 20px;
+    width: 100px;
+}
+.paragraf-2{
+    height: 20px;
+    width: 20px;
+}
+#btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}

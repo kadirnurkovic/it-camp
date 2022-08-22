@@ -1,0 +1,29 @@
+.cryptolist{
+    text-decoration: none;
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    height: 100%;
+    padding : 0;
+    margin: 0;
+}
+
+li{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;;
+    height: 60px;
+}
+.formDivName{
+    padding-right
+    : 300px
+}
+.form-class{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px
+}
